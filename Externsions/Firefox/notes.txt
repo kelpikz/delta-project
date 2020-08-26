@@ -1,0 +1,7 @@
+# Background scripts
+  ? Extensions often need to maintain long-term state or perform long-term operations 
+      independently of the lifetime of any particular web page or browser window.
+  That is what background scripts are for.
+  
+  * Instead of specifying background scripts, 
+      you can specify a background page which has the added advantage of supporting ES6 modules:
